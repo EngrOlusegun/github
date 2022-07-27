@@ -1,0 +1,61 @@
+body {
+    background-color: pink;
+}
+.mainA {
+    display: flex;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainB {
+    width: 100%;
+    flex: 1;
+}
+
+.mainB img {
+    height: 100%;
+    width: 100%;
+}
+
+.mainC {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    flex: 1;
+}
+
+.mainC span {
+    font-weight: bold;
+}
+
+.mainC button {
+    background-color: green;
+    width: 120px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 12px 21px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:12px;
+}
+
+.mainC {
+    font-weight: bold;
+}
+
+.dollar{
+    display: flex;
+}
+.cart{
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background: green;
+    color: white;
+}
+@media  (min-width: 600px) {
+
+}
